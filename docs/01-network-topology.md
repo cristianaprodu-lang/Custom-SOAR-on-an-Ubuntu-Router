@@ -35,10 +35,10 @@ Let's check the connectivity:
 1. The ping towards the router works
 <img width="722" height="492" alt="image" src="https://github.com/user-attachments/assets/bcbfc8ee-4891-42c6-89ee-641d2e2cf5c0" />
 
-2. We don't have internet yet, because I haven't activated DNS on the router.
+2. We don't have internet yet, because I haven't activated NAT on the router.
 <img width="734" height="586" alt="image" src="https://github.com/user-attachments/assets/d74cea05-c647-47e7-b4f9-65fb5c44eb5e" />
 
-DNS Activation: ``` sudo iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE ```
+NAT Activation: ``` sudo iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE ```
 
 <img width="569" height="406" alt="image" src="https://github.com/user-attachments/assets/4ea46408-f725-4b92-a60f-fe940baf5e81" />
 We have internet now!
