@@ -1,4 +1,0 @@
-# Description:
-This chapter covers the deployment and tuning of Suricata as an out of band IDS on the Ubuntu router. The goal is to analyze L4-L7 traffic across the LAN and DMZ interfaces with zero latency impact, exposing alerts in JSON format for the SOAR engine.
-
-## Installation:
