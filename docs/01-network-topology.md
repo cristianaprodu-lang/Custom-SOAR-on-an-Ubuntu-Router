@@ -43,4 +43,9 @@ NAT Activation: ``` sudo iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE 
 <img width="569" height="406" alt="image" src="https://github.com/user-attachments/assets/4ea46408-f725-4b92-a60f-fe940baf5e81" />
 We have internet now!
 
-## DMZ-Server configuration //todo
+## DMZ-Server configuration 
+
+<img width="721" height="399" alt="image" src="https://github.com/user-attachments/assets/ba767cc4-fe2d-49a6-a3fa-7eceef1c7bc2" />
+
+I also pinged the router and it worked, so everything is ok with the server.
+
